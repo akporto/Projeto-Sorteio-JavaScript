@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sorteio online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.min.js"></script>
+<link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
+
+
+</head>
+
+<body>
+
+    <section class = "conteudo1">
+    <h1 id="titulo1">Lance sua sorte! Vamos sortear?</h1>
+    <a href = "#frame1"><button id="botao1">Número</button></a>
+      <a href="#frame2"><button id="botao2">Nomes</button></a>
+    </section>
+    <div class= "box">
+        <div lj-type="stage">
+            <div lj-type="layer">
+                <div lj-type="frame" id="frame1">
+                    <div id ="sortNum">
+                        <h2 id="tituloNum">Insira os números</h2></br></br>
+                        <h4>Valor mínimo <input type="number" name="minimo" id="minimo"></h4>
+                        <h4>Valor máximo <input type="number" name="maximo" id="maximo"></h4>
+                        <button onclick="numeros()"id="botao1N">Lance a Sorte</button>
+                        <button type="submit"  onClick="refreshPage()" id="botao2N">Limpar</button>
+                        <h1 id="resultado">
+                       </div>
+                </div>
+                <div lj-type="frame" id="frame2">
+                    <div id="sortPal">
+                        <h4>Insira os nomes por vez abaixo</h4>
+                        <span id = "np"></span></h4><br>
+                           
+                            <input id="input_nome" type="text" name="nome">
+                            <button onclick="adicionar()" id="botao1P">Adicionar nome</button>
+                            <button type="submit"  onClick="refreshPage()" id="botao2P">Limpar</button>
+                        <br><br>
+                        <button onclick="capturar()" id="botao3P">Lance a Sorte </button>
+                    
+                        <h1 id="valor_digitado"></h2>
+                    
+                    </div>
+                </div>
+                </div>
+  
+</div>
+    <script src="sorteio.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

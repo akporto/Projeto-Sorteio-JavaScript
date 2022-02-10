@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
+html,body{
+     height: 100%;       
+}
+
+body, html {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      
+      body{
+       
+        background: linear-gradient(270deg, #181a19, #c6c1ba, #9d9aa1);
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 28s ease infinite;
+        -moz-animation: AnimationName 28s ease infinite;
+        -o-animation: AnimationName 28s ease infinite;
+        animation: AnimationName 28s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+.box{
+        border-radius: 40px;
+        height: 600px;
+        display: inline;
+        float: right;
+        width: 40%;
+        padding: 50px;
+        margin: 20px;
+        background: rgb(237, 228, 201,.4);
+        color: rgb(17, 16, 16);
+        margin-top: 10px;
+      }
+
+#sortNum{
+        box-sizing: 50px;
+        max-width: 260px;
+        left: 20%;
+       position:static;
+   
+}
+#sortPal{
+        word-break: break-all;
+        box-sizing: 50px;
+        max-width: 260px;
+        position:static;
+        left: 20%;
+}
+#tituloNum{
+        
+        color:rgb(17, 16, 16);
+        font-size: 25px;
+}
+
+
+#titulo1{
+        position: absolute;
+        display: inline-block;
+        max-width: 480px;
+        text-align: center;
+        margin-left: 60px;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 2px 2px black;
+        color: #f5f3ee;
+        font-size: 40px;
+        animation: blink .9s infinite;
+    }
+    
+    
+#botao1{
+        position:absolute;
+        display: block;
+       margin-top: 400px;
+       margin-left: 150px;
+       height: 100px;
+        width: 200px;
+        left: 30px;
+        border-radius: 15px;
+        background: rgb(237, 228, 201,.4);
+        color:black;
+        font-size: 40px;
+        text-decoration: none;
+}
+#botao2{
+        position: absolute;
+        display: block;
+       margin-top: 250px;
+       margin-left: 150px;
+        width: 200px;
+        height: 100px;
+        left: 30px;
+        border-radius: 15px;
+        background-color: black;
+        background: rgb(237, 228, 201,.4);
+        font-size: 40px;
+        text-decoration: none;
+}
+#input_nome{
+        margin-left: 20px;
+}
+#botao1P{
+        margin-left: 23px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+}
+#botao2P{
+        
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: black;
+        color: white; 
+}
+#botao3P{
+        width: 150px;
+        margin-top: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        background-color: black;
+        color: white; 
+}
+#valor_digitado{
+        margin-left: 40px;
+        margin-top: 50px;
+}
+#botao1N{
+        width: 100px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;  
+}       
+#botao2N{
+     
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color: black;
+        color: white; 
+}
+#resultado{
+        font-size: 80px;
+        margin-left: 10px;
+        margin-top: 30px;    
+     
+}
+
+
+
+[lj-type="stage"]{
+        width: 100%;
+        max-width: 260px;
+       height: 500px;
+        margin: auto;
+}
+
